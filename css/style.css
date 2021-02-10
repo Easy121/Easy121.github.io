@@ -1,27 +1,28 @@
 body {
-	background-color: #021d20;
+	background-color: white;
 }
 
 .title {
-	color: #efbc52;
+	color: #004edb;
+	/* color: #9ad36a; */
 }
 
 .firstsentence {
-	color: #9ad3da;
+	color: black;
 }
 
 p {
-	color: #9ad3da;
+	color: black;
 }
 
 ol li {
-	color: #9ad3da
+	color: black
 }
 
 table  td {
-	color: #9ad3da;
+	color: black;
 }
 
 table th {
-	color: #9ad3da;
+	color: black;
 }
