@@ -1,0 +1,27 @@
+body {
+	background-color: #021d20;
+}
+
+.title {
+	color: #efbc52;
+}
+
+.firstsentence {
+	color: #9ad3da;
+}
+
+p {
+	color: #9ad3da;
+}
+
+ol li {
+	color: #9ad3da
+}
+
+table  td {
+	color: #9ad3da;
+}
+
+table th {
+	color: #9ad3da;
+}
