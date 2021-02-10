@@ -2,4 +2,4 @@
 
 Everything is just building up.
 
-You can see the work at `https://easy121.github.io/`
+You can see the work [here](https://easy121.github.io/).
