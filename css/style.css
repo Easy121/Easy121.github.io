@@ -1,9 +1,21 @@
+/* normalize setting */
+html {
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+}
+
+img {
+	border-style: none;
+}
+
 @font-face {
 	font-family: titlefont;
 	src: url('../font/Courgette-Regular.ttf');
 }
 
 body {
+	margin: 0;
+	padding: 0;
 	background-color: white;
 }
 
@@ -11,26 +23,21 @@ body {
 :root {
 	--main-color1: #004edb;
 	--main-color2: black;
-	--title-ratio: 16 / 9;
+	--title-ratio: calc(16 / 9);
 	--title-font-size: 5vw;
-}
-
-#my-icon {
-	height: 200px;
-	width: 200px;
 }
 
 .title-div {
 	position: relative;
 	width: 100%;
-	aspect-ratio: var(--title-ratio);
-	/* background-color: #FFEBCD; */
+	height: calc(1 / var(--title-ratio) * 100vw);
+	/* background-color: #7a9e17; */
 }
 
 .title-div-1 {
 	position: absolute;
     height: 100%;
-	aspect-ratio: calc(var(--title-ratio) - 1);
+	width: calc((1 - 1 / var(--title-ratio)) * 100%);
 	/* background-color: #11EBCD; */
 
 	/* flex layout */
@@ -42,7 +49,6 @@ body {
 
 .item:nth-child(1) {
 	width: 90%;
-	aspect-ratio: var(--title-font-size);
 	color: var(--main-color2);
 	font-size: var(--title-font-size);
 	font-family: titlefont;
@@ -51,7 +57,6 @@ body {
 
 .item:nth-child(2) {
 	width: 90%;
-	aspect-ratio: var(--title-font-size);
 	color: var(--main-color1);
 	font-size: var(--title-font-size);
 	font-family: titlefont;
@@ -63,7 +68,7 @@ body {
 	float: right;
 	right: 0;
     height: 100%;
-	aspect-ratio: 1/1;
+	width: calc((1 / var(--title-ratio)) * 100%);;
 	/* background-color: #11EBCD; */
 }
 
