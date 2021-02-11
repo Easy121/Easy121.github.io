@@ -1,28 +1,78 @@
+@font-face {
+	font-family: titlefont;
+	src: url('../font/Courgette-Regular.ttf');
+}
+
 body {
 	background-color: white;
 }
 
-.title {
-	color: #004edb;
-	/* color: #9ad36a; */
+/* global variables */
+:root {
+	--main-color1: #004edb;
+	--main-color2: black;
+	--title-ratio: 16 / 9;
+	--title-font-size: 5vw;
 }
 
-.firstsentence {
-	color: black;
+#my-icon {
+	height: 200px;
+	width: 200px;
 }
 
-p {
-	color: black;
+.title-div {
+	position: relative;
+	width: 100%;
+	aspect-ratio: var(--title-ratio);
+	/* background-color: #FFEBCD; */
 }
 
-ol li {
-	color: black
+.title-div-1 {
+	position: absolute;
+    height: 100%;
+	aspect-ratio: calc(var(--title-ratio) - 1);
+	/* background-color: #11EBCD; */
+
+	/* flex layout */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-table  td {
-	color: black;
+.item:nth-child(1) {
+	width: 90%;
+	aspect-ratio: var(--title-font-size);
+	color: var(--main-color2);
+	font-size: var(--title-font-size);
+	font-family: titlefont;
+	/* background-color: #FFEBCD; */
 }
 
-table th {
-	color: black;
+.item:nth-child(2) {
+	width: 90%;
+	aspect-ratio: var(--title-font-size);
+	color: var(--main-color1);
+	font-size: var(--title-font-size);
+	font-family: titlefont;
+	/* background-color: #FFEBCD; */
+}
+
+.title-div-2 {
+	position: absolute;
+	float: right;
+	right: 0;
+    height: 100%;
+	aspect-ratio: 1/1;
+	/* background-color: #11EBCD; */
+}
+
+.title-div-2 img {
+	position: absolute;
+	--dimension: 50%;
+	width: var(--dimension);
+	height: var(--dimension);
+
+	left: calc((100% - var(--dimension)) / 2);
+	top: calc((100% - var(--dimension)) / 2)
 }
