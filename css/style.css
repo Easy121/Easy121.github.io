@@ -134,3 +134,36 @@ body {
 	width: 60%;
 	padding-right: 10%;
 }
+
+/* change the layout when the maximum width of the screen is smaller than 990px */
+@media screen and (max-width: 990px) {
+	:root {
+		--header-height: 50px;
+		--title-ratio: calc(4 / 3);
+	}
+
+	.header {
+		grid-template-columns: 1fr 4fr 1fr;
+		grid-template-rows: 5fr 1fr;
+		grid-template-areas: 
+			"header-menu header-explore header-search"
+			"header-transition header-transition header-transition";
+	}
+
+	.main {
+		width: 100%;
+		height: calc(1 / var(--title-ratio) * 100vw);
+	
+		grid-template-columns: 1fr 6fr 1fr;
+		grid-template-rows: 8fr 1fr 1fr;
+		grid-template-areas: 
+			". main-img ."
+			". main-sentence-1 ."
+			". main-sentence-2 .";
+	}
+
+	#my-icon {
+		width: 60%;
+		padding-right: 0%;
+	}
+}
