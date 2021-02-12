@@ -139,7 +139,7 @@ body {
 @media screen and (max-width: 990px) {
 	:root {
 		--header-height: 50px;
-		--title-ratio: calc(4 / 3);
+		--title-ratio: calc(3 / 3);
 	}
 
 	.header {
@@ -152,10 +152,10 @@ body {
 
 	.main {
 		width: 100%;
-		height: calc(1 / var(--title-ratio) * 100vw);
+		height: calc(var(--title-ratio) * 100vw);
 	
 		grid-template-columns: 1fr 6fr 1fr;
-		grid-template-rows: 8fr 1fr 1fr;
+		grid-template-rows: 10fr 1fr 1fr;
 		grid-template-areas: 
 			". main-img ."
 			". main-sentence-1 ."
