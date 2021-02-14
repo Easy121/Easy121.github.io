@@ -1,24 +1,5 @@
-# vueclitest
+## Welcome to my GitHub Pages
 
-## Project setup
-```
-npm install
-```
+Everything is just building up.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+You can see the work [here](https://easy121.github.io/).

@@ -17,6 +17,15 @@ export default {
 }
 </script>
 
+<style lang="scss">
+:root {
+	--headrow-height: 60px;
+	@media screen and (max-width: 990px) {
+		--headrow-height: 50px;
+	}
+}
+</style>
+
 <style lang="scss" scoped>
 // use grid to construct headrow
 #headrow {
@@ -48,7 +57,7 @@ export default {
 		grid-area: headrow-explore;
 		/* background-color: #11EBCD; */
 
-		font-family: titlefont;
+		font-family: font-curly;
 		font-size: calc(var(--headrow-height) - 30px);
 
 		place-self: center center;
@@ -73,6 +82,17 @@ export default {
 		background: 
 			linear-gradient(black, grey 20%, white 80%);
 		/* background-color: #11EBCD; */
+	}
+}
+
+// change the layout when the maximum width of the screen is smaller than 990px
+@media screen and (max-width: 990px) {
+	#headrow {
+		grid-template-columns: 1fr 4fr 1fr;
+		grid-template-rows: 5fr 1fr;
+		grid-template-areas: 
+			"headrow-menu headrow-explore headrow-search"
+			"headrow-transition headrow-transition headrow-transition";
 	}
 }
 </style>

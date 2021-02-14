@@ -1,16 +1,19 @@
 <template>
   <div id="app">
-    <headrow></headrow>
+    <headrow/>
+	<welcome/>
   </div>
 </template>
 
 <script>
 import headrow from './components/headrow.vue'
+import welcome from './components/welcome.vue'
 
 export default {
   name: 'App',
   components: {
-    headrow
+    headrow,
+	welcome
   }
 }
 </script>
@@ -18,17 +21,15 @@ export default {
 <style>
 /* font setting template */
 @font-face {
-	font-family: titlefont;
+	font-family: font-curly;
 	src: url('./assets/font/Courgette-Regular.ttf');
 }
 
 /* global variables */
 :root {
-	--main-color1: #004edb;
-	--main-color2: black;
-	--title-ratio: calc(16 / 9);
-	--title-font-size: 6vw;
-	--headrow-height: 60px;
+	--transition-width: '990px';
+	--welcome-color1: #004edb;
+	--welcome-color2: black;
 }
 
 /* normalize setting */
