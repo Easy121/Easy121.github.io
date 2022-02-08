@@ -40,10 +40,10 @@ custom_file_path:
 # ---------------------------------------------------------------
 
 favicon:
-  small: /images/favicon-16x16-next.png
-  medium: /images/favicon-32x32-next.png
-  apple_touch_icon: /images/apple-touch-icon-next.png
-  safari_pinned_tab: /images/logo.svg
+  small: /images/favicon-16x16-MyLogo.ico
+  medium: /images/favicon-32x32-MyLogo.ico
+  apple_touch_icon: /images/apple-touch-icon-MyLogo.png
+  safari_pinned_tab: /images/MyLogo.svg
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
 
@@ -103,7 +103,7 @@ scheme: Pisces
 # scheme: Gemini
 
 # Dark Mode
-darkmode: false
+darkmode: True
 
 
 # ---------------------------------------------------------------
@@ -163,7 +163,7 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: /logo/logo.png #/images/avatar.gif
+  url: /logo/MyLogo.png #/images/avatar.gif
   # If true, the avatar will be dispalyed in circle.
   rounded: true
   # If true, the avatar will be rotated with the cursor.
@@ -177,8 +177,8 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-  #GitHub: https://github.com/yourname || fab fa-github
-  #E-Mail: mailto:yourname@gmail.com || fa fa-envelope
+  GitHub: https://github.com/Easy121 || fab fa-github
+  E-Mail: mailto:guozijuneasy@163.com || fa fa-envelope
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
   #Twitter: https://twitter.com/yourname || fab fa-twitter
@@ -354,14 +354,14 @@ codeblock:
   # Code Highlight theme
   # Available values: normal | night | night eighties | night blue | night bright | solarized | solarized dark | galactic
   # See: https://github.com/chriskempson/tomorrow-theme
-  highlight_theme: normal
+  highlight_theme: night
   # Add copy button on codeblock
   copy_button:
-    enable: false
+    enable: true
     # Show text copy result.
-    show_result: false
+    show_result: true
     # Available values: default | flat | mac
-    style:
+    style: 
 
 back2top:
   enable: true
@@ -408,7 +408,7 @@ github_banner:
 # ---------------------------------------------------------------
 
 font:
-  enable: false
+  enable: true
 
   # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).
   host:
@@ -421,19 +421,19 @@ font:
   # Global font settings used for all elements inside <body>.
   global:
     external: true
-    family: Lato
+    family:
     size:
 
   # Font settings for site title (.site-title).
   title:
-    external: true
-    family:
+    external: false
+    family: Brela
     size:
 
   # Font settings for headlines (<h1> to <h6>).
   headings:
-    external: true
-    family:
+    external: false
+    family: Brela
     size:
 
   # Font settings for posts (.post-body).
@@ -443,8 +443,8 @@ font:
 
   # Font settings for <code> and code blocks.
   codes:
-    external: true
-    family:
+    external: false
+    family: Cascadia Code
 
 
 # ---------------------------------------------------------------
