@@ -1222,7 +1222,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #200f01;
+  background: #dbff39;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2493,7 +2493,38 @@ ul.breadcrumb li + li:last-child {
 .links-of-blogroll-item {
   padding: 0;
 }
-/*锚点样式*/
+/* 字体预设 */
+@font-face {
+  font-family: "Brela";
+  src: url("../fonts/brelaregular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cascadia Code";
+  src: url("../fonts/CascadiaCode-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cascadia Code";
+  src: url("../fonts/CascadiaCode-Bold.otf");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cascadia Code";
+  src: url("../fonts/CascadiaCode-Italic.otf");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Cascadia Code";
+  src: url("../fonts/CascadiaCode-BoldItalic.otf");
+  font-weight: bold;
+  font-style: italic;
+}
+/* 锚点样式 */
 h1,
 h2,
 h3,
