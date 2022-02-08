@@ -6,4 +6,5 @@ You can see the work [here](https://easy121.github.io/).
 
 ## TODO
 - [x] Anchor link icon null
-- [ ] Font and theme not right on mobile devices
+- [x] Font not right on mobile devices
+- [ ] Publish one existing blog as a test

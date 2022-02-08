@@ -429,13 +429,13 @@ font:
   # Font settings for site title (.site-title).
   title:
     external: false
-    family: Brela
+    family: "Brela"
     size:
 
   # Font settings for headlines (<h1> to <h6>).
   headings:
     external: false
-    family: Brela
+    family: "Brela"
     size:
 
   # Font settings for posts (.post-body).
@@ -446,7 +446,7 @@ font:
   # Font settings for <code> and code blocks.
   codes:
     external: false
-    family: Cascadia Code
+    family: "Cascadia Code"
 
 
 # ---------------------------------------------------------------

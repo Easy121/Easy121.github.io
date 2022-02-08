@@ -1,20 +1,61 @@
-/*锚点样式*/
+/* 字体预设 */
+@font-face {
+  font-family: "Brela";
+  // 在生成的public中，main.css位于css文件夹中，需要到上级才能看到fonts文件夹
+  src: url('../fonts/brelaregular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cascadia Code";
+  // 在生成的public中，main.css位于css文件夹中，需要到上级才能看到fonts文件夹
+  src: url('../fonts/CascadiaCode-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cascadia Code";
+  // 在生成的public中，main.css位于css文件夹中，需要到上级才能看到fonts文件夹
+  src: url('../fonts/CascadiaCode-Bold.otf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cascadia Code";
+  // 在生成的public中，main.css位于css文件夹中，需要到上级才能看到fonts文件夹
+  src: url('../fonts/CascadiaCode-Italic.otf');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Cascadia Code";
+  // 在生成的public中，main.css位于css文件夹中，需要到上级才能看到fonts文件夹
+  src: url('../fonts/CascadiaCode-BoldItalic.otf');
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* 锚点样式 */
 h1, h2, h3, h4, h5, h6 {
-padding-top: 10px;
+  padding-top: 10px;
 
-.header-anchor {
-  border-bottom-style: none;
-  color: $grey-light;
-  float: none !important;
-  margin-left: 10px;
-  visibility: hidden;
+  .header-anchor {
+    border-bottom-style: none;
+    color: $grey-light;
+    float: none !important;
+    margin-left: 10px;
+    visibility: hidden;
 
-  &:hover {
-  color: inherit;
+    &:hover {
+    color: inherit;
+    }
   }
-}
 
-&:hover .header-anchor {
-  visibility: visible;
-}
+  &:hover .header-anchor {
+    visibility: visible;
+  }
 }
