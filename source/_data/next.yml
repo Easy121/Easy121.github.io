@@ -10,7 +10,7 @@
 override: true
 
 # Console reminder if new version released.
-reminder: false
+reminder: true
 
 # Allow to cache content generation. Introduced in NexT v6.0.0.
 cache:
@@ -41,10 +41,10 @@ custom_file_path:
 # ---------------------------------------------------------------
 
 favicon:
-  small: /images/favicon-16x16-MyLogo.ico
-  medium: /images/favicon-32x32-MyLogo.ico
-  apple_touch_icon: /images/apple-touch-icon-MyLogo.png
-  safari_pinned_tab: /images/MyLogo.svg
+  small: /logo/favicon-16x16-MyLogo.ico
+  medium: /logo/favicon-32x32-MyLogo.ico
+  apple_touch_icon: /logo/apple-touch-icon-MyLogo.png
+  safari_pinned_tab: /logo/MyLogo.svg
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
 
