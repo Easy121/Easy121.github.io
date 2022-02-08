@@ -104,7 +104,6 @@ theme: next
 deploy:
   type: ''
 
-## markdown 渲染引擎配置，默认是hexo-renderer-marked，这个插件渲染速度更快，且有新特性
 markdown:
   render:
     html: true
@@ -123,5 +122,6 @@ markdown:
     level: 2
     collisionSuffix: 'v'
     permalink: true
-    permalinkClass: header-anchor
-    permalinkSymbol:
+    permalinkClass: 'header-anchor'
+    permalinkSide: 'right'
+    permalinkSymbol: '¶'

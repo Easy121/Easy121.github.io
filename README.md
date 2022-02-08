@@ -3,3 +3,7 @@
 Everything is just building up.
 
 You can see the work [here](https://easy121.github.io/).
+
+## TODO
+- [x] Anchor link icon null
+- [ ] Font and theme not right on mobile devices
