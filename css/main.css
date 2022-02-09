@@ -221,7 +221,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Brela', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'JiYeJunZiFangSongTiJian', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 20px 0 15px;
@@ -1222,7 +1222,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #dbff39;
+  background: #1ff4ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2493,10 +2493,18 @@ ul.breadcrumb li + li:last-child {
 .links-of-blogroll-item {
   padding: 0;
 }
+/* ####### */
 /* 字体预设 */
+/* ####### */
 @font-face {
   font-family: "Brela";
   src: url("../fonts/brelaregular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "JiYeJunZiFangSongTiJian";
+  src: url("../fonts/JiYeJunZiFangSongTiJian.ttf");
   font-weight: normal;
   font-style: normal;
 }
@@ -2524,7 +2532,9 @@ ul.breadcrumb li + li:last-child {
   font-weight: bold;
   font-style: italic;
 }
+/* ####### */
 /* 锚点样式 */
+/* ####### */
 h1,
 h2,
 h3,
