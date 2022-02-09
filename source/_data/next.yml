@@ -29,7 +29,7 @@ custom_file_path:
   #postBodyEnd: source/_data/post-body-end.swig
   #footer: source/_data/footer.swig
   #bodyEnd: source/_data/body-end.swig
-  #variable: source/_data/variables.styl
+  # variable: source/_data/variables.styl
   #mixin: source/_data/mixins.styl
   # 在_data中创建新样式主动覆盖旧样式
   style: source/_data/styles.styl
@@ -422,31 +422,31 @@ font:
 
   # Global font settings used for all elements inside <body>.
   global:
-    external: true
+    external: false
     family:
     size:
 
   # Font settings for site title (.site-title).
   title:
     external: false
-    family: "Brela"
+    family: Brela
     size:
 
   # Font settings for headlines (<h1> to <h6>).
   headings:
     external: false
-    family: "Brela"
+    family: JiYeJunZiFangSongTiJian
     size:
 
   # Font settings for posts (.post-body).
   posts:
-    external: true
+    external: false
     family:
 
   # Font settings for <code> and code blocks.
   codes:
     external: false
-    family: "Cascadia Code"
+    family: Cascadia Code
 
 
 # ---------------------------------------------------------------
