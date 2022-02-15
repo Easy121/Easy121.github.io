@@ -8,6 +8,8 @@ You can see the work [here](https://easy121.github.io/).
 - [x] Anchor link icon null
 - [x] Font not right on mobile devices
 - [x] Add Chinese fonts
-- [ ] Add emotional comment
-- [ ] Create license
+- [ ] Add emotional comment from disqus (discarded)
+- [x] Create license
+- [ ] Click animation
+- [ ] Website statistics
 - [ ] Publish one existing blog as a test
