@@ -7,9 +7,9 @@ draft: false
 tags:
   - planning
   - optimization
+  - parking
 description:
-  How you can enable/disable light & dark mode; and customize color schemes
-  of AstroPaper theme.
+  Journal Paper. 
 ---
 
 ## Abstract
