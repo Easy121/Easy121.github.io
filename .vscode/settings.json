@@ -1,0 +1,24 @@
+{
+    // * Additional
+    
+    // * Additional
+    
+    "code-runner.runInTerminal": true,  // Run the codes in terminal 
+    
+    "editor.renderWhitespace": "none",  // no white space rendering
+    
+    "cSpell.enabled": false,  // enable cSpell checker or not
+    
+    "files.autoSave": "afterDelay",  // Save after delay
+    
+    "editor.formatOnSave": false,  // Disable automatic format
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
+    
+    "breadcrumbs.showVariables": false,  // better navigation in large project
+    "breadcrumbs.showConstants": false,
+    
+    "editor.detectIndentation": true,  // Indent based on file content
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,  // default indentation
+}
